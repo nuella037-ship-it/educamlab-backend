@@ -1,4 +1,4 @@
-// src/app.js - Fixed (no duplicate corsOptions)
+// src/app.js - Fixed CORS Configuration
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
@@ -58,18 +58,16 @@ app.use(helmet({
 }));
 
 // ============================================
-// CORS CONFIGURATION (ONLY ONCE)
+// CORS CONFIGURATION
 // ============================================
-// src/app.js
-
 const corsOptions = {
     origin: (origin, callback) => {
         const allowedOrigins = [
             'http://localhost:3000',
             'http://localhost:3001',
-            'https://educamlab-frontend.onrender.com',  // ← ADD THIS!
-            'https://educamlab.page.gd',                // ← ADD THIS!
-            process.env.ALLOWED_ORIGINS                // ← For Render env var
+            'https://educamlab-frontend.onrender.com',
+            'https://educamlab.page.gd',
+            process.env.ALLOWED_ORIGINS
         ];
         
         // Allow requests with no origin (like mobile apps or curl)
@@ -84,8 +82,8 @@ const corsOptions = {
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
-    exposedHeaders: ['X-Total-Count'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'X-CSRF-Token', 'X-Request-ID'],
+    exposedHeaders: ['X-Total-Count', 'X-RateLimit-Limit', 'X-RateLimit-Remaining'],
     maxAge: 86400
 };
 
