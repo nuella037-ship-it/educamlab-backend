@@ -1,0 +1,13 @@
+2026-06-24 19:10:53 [ERROR]: Migration failed: Access denied for user 'educamlab_user'@'localhost' (using password: YES) 
+2026-06-24 19:11:21 [ERROR]: Migration failed: Access denied for user 'educamlab_user'@'localhost' (using password: YES) 
+2026-06-24 19:43:58 [ERROR]: Migration 001_create_user_pins_table.sql failed: Duplicate key name 'idx_payments_user_id' 
+2026-06-24 19:47:14 [ERROR]: Migration 001_create_user_pins_table.sql failed: Duplicate key name 'idx_payments_user_id' 
+2026-06-24 19:50:03 [ERROR]: Migration failed: Can't create table `educamlab`.`payments` (errno: 150 "Foreign key constraint is incorrectly formed") 
+2026-06-24 20:03:37 [ERROR]: ❌ Port 5000 is already in use 
+2026-06-24 20:04:22 [ERROR]: ❌ Port 5000 is already in use 
+2026-06-24 20:05:12 [ERROR]: ❌ Port 5000 is already in use 
+2026-06-24 20:08:23 [ERROR]: ❌ Port 5000 is already in use 
+2026-06-24 20:09:10 [ERROR]: ❌ Port 5000 is already in use 
+2026-06-24 20:09:55 [ERROR]: ❌ Port 5000 is already in use 
+2026-06-26 12:24:43 [ERROR]: ❌ Database connection failed after 5 attempts:  
+2026-06-26 14:34:29 [ERROR]: ❌ Database connection failed after 5 attempts:  

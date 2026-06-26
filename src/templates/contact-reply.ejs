@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reply to Your Inquiry</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .logo {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .body {
+            padding: 30px;
+        }
+        .message-box {
+            background: #f3f4f6;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            border-left: 4px solid #4f46e5;
+        }
+        .reply-box {
+            background: #dbeafe;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            border-left: 4px solid #3b82f6;
+        }
+        .footer {
+            background: #f9fafb;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #6b7280;
+            border-top: 1px solid #e5e7eb;
+        }
+        .footer a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">📚</div>
+            <h1>EduCamLab</h1>
+            <p style="color: rgba(255,255,255,0.9); margin: 0;">Reply to Your Inquiry</p>
+        </div>
+        
+        <div class="body">
+            <h2>Hello <%= name %>!</h2>
+            <p>Thank you for contacting EduCamLab. Here is our reply to your inquiry:</p>
+            
+            <div class="message-box">
+                <strong style="color: #4b5563;">Your original message:</strong>
+                <p style="margin: 8px 0 0 0; color: #374151;"><strong>Subject:</strong> <%= subject %></p>
+            </div>
+            
+            <div class="reply-box">
+                <strong style="color: #1e40af;">Our reply:</strong>
+                <p style="margin: 8px 0 0 0; color: #1e40af; white-space: pre-wrap;"><%= reply %></p>
+            </div>
+            
+            <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;">
+            
+            <p style="font-size: 13px; color: #6b7280;">If you have any further questions, please don't hesitate to reply to this email or contact us through our website.</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; <%= year %> EduCamLab. All rights reserved.</p>
+            <p>
+                <a href="<%= frontendUrl %>/policy/privacy.html">Privacy Policy</a> |
+                <a href="<%= frontendUrl %>/policy/terms.html">Terms of Service</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

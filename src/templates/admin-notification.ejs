@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Contact Message</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .logo {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .body {
+            padding: 30px;
+        }
+        .message-box {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            border-left: 4px solid #ef4444;
+        }
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .detail-row .label {
+            font-weight: 600;
+            color: #6b7280;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #4f46e5;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin: 8px 0;
+        }
+        .btn:hover {
+            background: #4338ca;
+        }
+        .footer {
+            background: #f9fafb;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #6b7280;
+            border-top: 1px solid #e5e7eb;
+        }
+        .footer a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">📚</div>
+            <h1>EduCamLab</h1>
+            <p style="color: rgba(255,255,255,0.9); margin: 0;">New Contact Message 📬</p>
+        </div>
+        
+        <div class="body">
+            <p>A new contact message has been received from <strong><%= name %></strong>.</p>
+            
+            <div class="message-box">
+                <div class="detail-row">
+                    <span class="label">Name</span>
+                    <span><%= name %></span>
+                </div>
+                <div class="detail-row">
+                    <span class="label">Email</span>
+                    <span><a href="mailto:<%= email %>"><%= email %></a></span>
+                </div>
+                <div class="detail-row">
+                    <span class="label">Subject</span>
+                    <span><strong><%= subject %></strong></span>
+                </div>
+                <div style="margin-top: 12px;">
+                    <strong style="display: block; margin-bottom: 4px; color: #6b7280;">Message:</strong>
+                    <p style="margin: 0; color: #374151; white-space: pre-wrap;"><%= message %></p>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin: 20px 0;">
+                <a href="<%= adminUrl %>" class="btn">View in Admin Dashboard</a>
+            </p>
+            
+            <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;">
+            
+            <p style="font-size: 13px; color: #6b7280;">This is an automated notification. Please do not reply to this email.</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; <%= year %> EduCamLab. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

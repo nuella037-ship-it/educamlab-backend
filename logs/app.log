@@ -1,0 +1,285 @@
+2026-06-24 18:43:15 [INFO]: 📦 Starting database migration... 
+2026-06-24 18:43:15 [INFO]: 📂 Database: educamlab 
+2026-06-24 18:50:34 [INFO]: 📦 Starting database migration... 
+2026-06-24 18:50:34 [INFO]: 📂 Database: educamlab 
+2026-06-24 18:54:47 [INFO]: 📦 Starting database migration... 
+2026-06-24 18:54:47 [INFO]: 📂 Database: educamlab 
+2026-06-24 18:55:32 [INFO]: 📦 Starting database migration... 
+2026-06-24 18:55:32 [INFO]: 📂 Database: educamlab 
+2026-06-24 19:10:53 [INFO]: Starting database migration... 
+2026-06-24 19:10:53 [INFO]: Database: educamlab 
+2026-06-24 19:10:53 [ERROR]: Migration failed: Access denied for user 'educamlab_user'@'localhost' (using password: YES) 
+2026-06-24 19:11:21 [INFO]: Starting database migration... 
+2026-06-24 19:11:21 [INFO]: Database: educamlab 
+2026-06-24 19:11:21 [ERROR]: Migration failed: Access denied for user 'educamlab_user'@'localhost' (using password: YES) 
+2026-06-24 19:43:57 [INFO]: Starting database migration... 
+2026-06-24 19:43:57 [INFO]: Database: educamlab 
+2026-06-24 19:43:57 [INFO]: Database 'educamlab' ready 
+2026-06-24 19:43:58 [INFO]: Schema executed successfully 
+2026-06-24 19:43:58 [ERROR]: Migration 001_create_user_pins_table.sql failed: Duplicate key name 'idx_payments_user_id' 
+2026-06-24 19:47:14 [INFO]: Starting database migration... 
+2026-06-24 19:47:14 [INFO]: Database: educamlab 
+2026-06-24 19:47:14 [INFO]: Database 'educamlab' ready 
+2026-06-24 19:47:14 [INFO]: Schema executed successfully 
+2026-06-24 19:47:14 [ERROR]: Migration 001_create_user_pins_table.sql failed: Duplicate key name 'idx_payments_user_id' 
+2026-06-24 19:50:03 [INFO]: Starting database migration... 
+2026-06-24 19:50:03 [INFO]: Database: educamlab 
+2026-06-24 19:50:03 [INFO]: Database 'educamlab' ready 
+2026-06-24 19:50:03 [ERROR]: Migration failed: Can't create table `educamlab`.`payments` (errno: 150 "Foreign key constraint is incorrectly formed") 
+2026-06-24 19:53:47 [INFO]: Starting database migration... 
+2026-06-24 19:53:47 [INFO]: Database: educamlab 
+2026-06-24 19:53:47 [INFO]: Database 'educamlab' ready 
+2026-06-24 19:53:47 [INFO]: Schema executed successfully 
+2026-06-24 19:53:47 [INFO]: Migration 001_create_user_pins_table.sql completed 
+2026-06-24 19:53:47 [INFO]: Migration 002_add_phone_index.sql completed 
+2026-06-24 19:53:47 [INFO]: Migration 003_add_pin_tracking.sql completed 
+2026-06-24 19:53:48 [INFO]: Migration 004_add_course_content.sql completed 
+2026-06-24 19:53:48 [INFO]: 
+Verifying table structure... 
+2026-06-24 19:53:48 [INFO]: users table has 21 columns 
+2026-06-24 19:53:48 [INFO]: courses table has 13 columns 
+2026-06-24 19:53:48 [INFO]: enrollments table has 7 columns 
+2026-06-24 19:53:48 [INFO]: payments table has 12 columns 
+2026-06-24 19:53:48 [INFO]: course_reviews table has 7 columns 
+2026-06-24 19:53:48 [INFO]: contact_messages table has 8 columns 
+2026-06-24 19:53:48 [INFO]: user_activities table has 7 columns 
+2026-06-24 19:53:48 [INFO]: broadcasts table has 9 columns 
+2026-06-24 19:53:48 [INFO]: user_pins table has 13 columns 
+2026-06-24 19:53:48 [INFO]: settings table has 5 columns 
+2026-06-24 19:54:10 [INFO]: 🌱 Starting database seeding... 
+2026-06-24 19:54:11 [INFO]: ✅ Admin user created: admin@educamlab.com 
+2026-06-24 19:54:11 [INFO]: 🔑 Admin PIN: JRAMBZ 
+2026-06-24 19:54:11 [INFO]: ✅ 5 sample courses created 
+2026-06-24 19:54:11 [INFO]: ✅ Default settings created 
+2026-06-24 20:03:36 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:03:37 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:04:22 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:04:22 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:05:12 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:05:12 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:06:42 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:06:42 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:06:42 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 20:06:42 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 20:06:42 [INFO]: 📍 Environment: development 
+2026-06-24 20:06:42 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 20:06:42 [INFO]: 📧 Email: Enabled 
+2026-06-24 20:06:42 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 20:07:50 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:07:50 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:07:51 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 20:07:51 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 20:07:51 [INFO]: 📍 Environment: development 
+2026-06-24 20:07:51 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 20:07:51 [INFO]: 📧 Email: Enabled 
+2026-06-24 20:07:51 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 20:08:22 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:08:23 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:09:10 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:09:10 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:09:54 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:09:55 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:10:43 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:10:43 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:10:43 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 20:10:43 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 20:10:43 [INFO]: 📍 Environment: development 
+2026-06-24 20:10:43 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 20:10:43 [INFO]: 📧 Email: Enabled 
+2026-06-24 20:10:43 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 20:11:58 [INFO]: ⚠️ Received SIGINT. Closing gracefully... 
+2026-06-24 20:12:04 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 20:12:04 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 20:12:04 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 20:12:04 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 20:12:04 [INFO]: 📍 Environment: development 
+2026-06-24 20:12:04 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 20:12:04 [INFO]: 📧 Email: Enabled 
+2026-06-24 20:12:04 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 21:09:37 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 21:09:37 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 21:09:38 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 21:09:38 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 21:09:38 [INFO]: 📍 Environment: development 
+2026-06-24 21:09:38 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 21:09:38 [INFO]: 📧 Email: Enabled 
+2026-06-24 21:09:38 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 21:12:10 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 21:12:10 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 21:12:10 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 21:12:10 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 21:12:10 [INFO]: 📍 Environment: development 
+2026-06-24 21:12:10 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 21:12:10 [INFO]: 📧 Email: Enabled 
+2026-06-24 21:12:10 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 21:14:37 [INFO]: 👤 User created: test@example.com (ID: 2) 
+2026-06-24 21:16:44 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-24 21:16:44 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-24 21:16:44 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-24 21:16:44 [INFO]: 🚀 Server running on port 5000 
+2026-06-24 21:16:44 [INFO]: 📍 Environment: development 
+2026-06-24 21:16:44 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-24 21:16:44 [INFO]: 📧 Email: Enabled 
+2026-06-24 21:16:44 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-24 21:16:51 [WARN]: POST /api/v1/auth/register 400 15ms {"requestId":"req_1782321411131_tzinmcug6","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:18:30 [WARN]: POST /api/v1/auth/register 400 4ms {"requestId":"req_1782321510806_z0gqdhq8u","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:18:31 [WARN]: POST /api/v1/auth/register 400 3ms {"requestId":"req_1782321511684_9wf79yji3","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:18:32 [WARN]: POST /api/v1/auth/register 400 2ms {"requestId":"req_1782321512574_x0i34t6jc","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:19:35 [WARN]: POST /api/v1/auth/login 403 4ms {"requestId":"req_1782321575808_s44ej56ig","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:21:51 [INFO]: POST /api/v1/auth/login 200 377ms {"requestId":"req_1782321711288_8thppaerv","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:23:34 [INFO]: POST /api/v1/auth/login 200 337ms {"requestId":"req_1782321814310_62susjg26","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:25:27 [INFO]: POST /api/v1/auth/login 200 343ms {"requestId":"req_1782321927292_mmzrn2p1f","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:26:55 [WARN]: GET /api/v1/admin/dashboard/stats 401 2ms {"requestId":"req_1782322015958_cymq992op","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:27:40 [INFO]: GET /api/v1/admin/dashboard/stats 200 60ms {"requestId":"req_1782322060731_qnlk4gnsk","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:32:58 [WARN]: POST /api/v1/auth/login 403 2ms {"requestId":"req_1782322378536_endfl0j94","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:36:18 [INFO]: POST /api/v1/auth/login 200 338ms {"requestId":"req_1782322577830_1fw486d6r","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:36:52 [INFO]: GET /api/v1/users/dashboard/stats 200 20ms {"requestId":"req_1782322612018_k0q1opsea","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:40:36 [INFO]: GET /api/health 200 1ms {"requestId":"req_1782322836945_8a14l8hbz","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:40:57 [INFO]: GET /api/v1/courses 200 5ms {"requestId":"req_1782322857324_808x8zsdr","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:41:15 [INFO]: GET /api/v1/courses/featured 200 3ms {"requestId":"req_1782322875600_5rgcob1pu","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:41:29 [INFO]: GET /api/v1/courses/categories 200 2ms {"requestId":"req_1782322889250_zq2shcnkr","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:41:42 [INFO]: GET /api/v1/courses/web-development-fundamentals 200 48ms {"requestId":"req_1782322902273_hy40kl5kv","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:41:45 [INFO]: GET /api/v1/courses/web-development-fundamentals 200 26ms {"requestId":"req_1782322905110_ow97py4pz","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:42:29 [INFO]: 👤 User created: john@example.com (ID: 3) 
+2026-06-24 21:42:29 [INFO]: 📧 EMAIL (MOCKED) - To: john@example.com, Subject: 🔐 Verify Your EduCamLab Account 
+2026-06-24 21:42:29 [INFO]: 📧 Data: {"0":"{","1":"\n","2":" ","3":" ","4":"\"","5":"f","6":"i","7":"r","8":"s","9":"t","10":"n","11":"a","12":"m","13":"e","14":"\"","15":":","16":" ","17":"\"","18":"J","19":"o","20":"h","21":"n","22":"\"","23":",","24":"\n","25":" ","26":" ","27":"\"","28":"c","29":"o","30":"d","31":"e","32":"\"","33":":","34":" ","35":"\"","36":"1","37":"9","38":"6","39":"0","40":"7","41":"2","42":"\"","43":",","44":"\n","45":" ","46":" ","47":"\"","48":"u","49":"s","50":"e","51":"r","52":"I","53":"d","54":"\"","55":":","56":" ","57":"3","58":",","59":"\n","60":" ","61":" ","62":"\"","63":"e","64":"m","65":"a","66":"i","67":"l","68":"\"","69":":","70":" ","71":"\"","72":"j","73":"o","74":"h","75":"n","76":"@","77":"e","78":"x","79":"a","80":"m","81":"p","82":"l","83":"e","84":".","85":"c","86":"o","87":"m","88":"\"","89":"\n","90":"}"}
+2026-06-24 21:42:29 [INFO]: ✅ User registered: john@example.com (ID: 3) 
+2026-06-24 21:42:29 [INFO]: POST /api/v1/auth/register 201 346ms {"requestId":"req_1782322949231_ubkbl9beo","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:43:31 [INFO]: POST /api/v1/auth/login 200 322ms {"requestId":"req_1782323010689_h304e557q","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:44:06 [INFO]: POST /api/v1/auth/login 200 319ms {"requestId":"req_1782323046076_e6ksomclg","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:47:02 [INFO]: GET /api/v1/admin/users 200 8ms {"requestId":"req_1782323222803_fnglx0r51","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:47:55 [INFO]: GET /api/v1/admin/users/2 200 14ms {"requestId":"req_1782323275984_8w4k6giko","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:48:07 [INFO]: GET /api/v1/admin/users/2 200 8ms {"requestId":"req_1782323287190_yfe9e0bjz","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:49:45 [INFO]: GET /api/v1/admin/payments 200 4ms {"requestId":"req_1782323385480_stvpazaoh","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:50:08 [INFO]: GET /api/v1/admin/payments/stats 200 18ms {"requestId":"req_1782323408542_jonz0l31e","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:50:35 [INFO]: GET /api/v1/admin/courses 200 20ms {"requestId":"req_1782323435650_9s2vg4azp","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:51:22 [WARN]: POST /api/v1/admin/payments/generate-pin 404 7ms {"requestId":"req_1782323482447_ymjljx4gv","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:51:41 [WARN]: GET /api/v1/admin/payments/generate-pin 404 2ms {"requestId":"req_1782323501381_6nqsrhwle","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:51:42 [WARN]: GET /api/v1/admin/payments/generate-pin 404 2ms {"requestId":"req_1782323502434_s8v1l966o","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:51:48 [WARN]: POST /api/v1/admin/payments/generate-pin 404 4ms {"requestId":"req_1782323508612_rso3j7i9b","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-24 21:54:11 [INFO]: 🔐 PIN generated for user 2: UHXYRD 
+2026-06-24 21:54:11 [INFO]: 💰 Cash payment created: 1 for user 2 
+2026-06-24 21:54:11 [INFO]: 📱 SMS (MOCKED): To 677123456 - 🔐 Your EduCamLab PIN is: UHXY... 
+2026-06-24 21:54:11 [INFO]: POST /api/v1/payments/generate-pin 200 382ms {"requestId":"req_1782323651467_cygd3d1u9","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-25 10:46:02 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 10:46:02 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 10:46:02 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 10:46:02 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 10:46:02 [INFO]: 📍 Environment: development 
+2026-06-25 10:46:02 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 10:46:02 [INFO]: 📧 Email: Enabled 
+2026-06-25 10:46:02 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-25 10:46:39 [INFO]: GET /api/health 200 18ms {"requestId":"req_1782369999564_kjknm1588","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+2026-06-25 10:47:40 [INFO]: ⚠️ Received SIGINT. Closing gracefully... 
+2026-06-25 10:48:59 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 10:48:59 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 10:49:00 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 10:49:00 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 10:49:00 [INFO]: 📍 Environment: development 
+2026-06-25 10:49:00 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 10:49:00 [INFO]: 📧 Email: Enabled 
+2026-06-25 10:49:00 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-25 11:11:26 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 11:11:26 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 11:11:26 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 11:11:26 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 11:11:26 [INFO]: 📍 Environment: development 
+2026-06-25 11:11:26 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 11:11:26 [INFO]: 📧 Email: Enabled 
+2026-06-25 11:11:26 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-25 11:11:55 [INFO]: ⚠️ Received SIGINT. Closing gracefully... 
+2026-06-25 11:13:23 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 11:13:23 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 11:13:23 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 11:13:23 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 11:13:23 [INFO]: 📍 Environment: development 
+2026-06-25 11:13:23 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 11:13:23 [INFO]: 📧 Email: Enabled 
+2026-06-25 11:13:23 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-25 11:15:57 [INFO]: ⚠️ Received SIGINT. Closing gracefully... 
+2026-06-25 11:32:31 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 11:32:31 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 11:32:31 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 11:32:31 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 11:32:31 [INFO]: 📍 Environment: development 
+2026-06-25 11:32:31 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 11:32:31 [INFO]: 📧 Email: Enabled 
+2026-06-25 11:32:31 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-25 11:42:11 [INFO]: GET /api/health 200 20ms {"requestId":"req_1782373331080_0rhqizkxk","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 11:42:11 [WARN]: GET /favicon.ico 404 1ms {"requestId":"req_1782373331304_y4ovnc2ho","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:00:34 [INFO]: ⚠️ Received SIGINT. Closing gracefully... 
+2026-06-25 12:00:38 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 12:00:38 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 12:00:38 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 12:00:38 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 12:00:38 [INFO]: 📍 Environment: development 
+2026-06-25 12:00:38 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 12:00:38 [INFO]: 📧 Email: Enabled 
+2026-06-25 12:00:38 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-25 12:02:15 [INFO]: POST /api/v1/auth/login 200 905ms {"requestId":"req_1782374534111_j4rdx4tbw","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:15 [INFO]: GET /api/v1/auth/me 200 24ms {"requestId":"req_1782374535072_5mzcaxqky","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:16 [INFO]: GET /api/v1/auth/me 304 63ms {"requestId":"req_1782374536223_maxpli7fr","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:16 [INFO]: GET /api/v1/admin/messages?status=new&limit=5 200 107ms {"requestId":"req_1782374536240_9o4rmchpw","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:16 [INFO]: GET /api/v1/admin/activities?limit=10 200 113ms {"requestId":"req_1782374536244_utxi7uyfm","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:16 [INFO]: GET /api/v1/admin/payments?limit=1000 200 67ms {"requestId":"req_1782374536338_ap1u8xd50","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:16 [INFO]: GET /api/v1/admin/dashboard/stats 200 211ms {"requestId":"req_1782374536211_dinrlmawy","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:16 [INFO]: GET /api/v1/admin/payments?status=pending&limit=5 200 49ms {"requestId":"req_1782374536378_g8is3n4lh","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:02:51 [INFO]: GET /api/v1/auth/me 304 8ms {"requestId":"req_1782374571139_uramjk6x6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:06:59 [INFO]: GET /api/v1/auth/me 304 35ms {"requestId":"req_1782374819092_lgcu7pmf7","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:06:59 [INFO]: GET /api/v1/admin/users?page=1&limit=20&search=undefined&role=undefined&isVerified=undefined&subscription=undefined&pinFilter=undefined 200 22ms {"requestId":"req_1782374819112_aakpl2k8c","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:06:59 [INFO]: GET /api/v1/admin/users?limit=1000 200 33ms {"requestId":"req_1782374819115_lclrbx8v2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:04 [INFO]: GET /api/v1/auth/me 304 9ms {"requestId":"req_1782374824321_yzz76ar5s","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:09 [INFO]: GET /api/v1/auth/me 304 22ms {"requestId":"req_1782374829556_4whzut3bo","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:09 [INFO]: GET /api/v1/admin/messages?page=1&limit=20&search=undefined&status=undefined 200 21ms {"requestId":"req_1782374829566_pc875euap","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:09 [INFO]: GET /api/v1/admin/messages?limit=1000 200 21ms {"requestId":"req_1782374829571_l94e8o4cz","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:12 [INFO]: GET /api/v1/admin/payments?page=1&limit=20&search=undefined&status=undefined&plan=undefined 200 25ms {"requestId":"req_1782374832708_sfjd3ko90","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:12 [INFO]: GET /api/v1/auth/me 304 32ms {"requestId":"req_1782374832704_pkfhn9bmr","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:12 [INFO]: GET /api/v1/admin/users?limit=1000 304 32ms {"requestId":"req_1782374832713_5qeommab4","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:07:12 [INFO]: GET /api/v1/admin/payments/stats 200 43ms {"requestId":"req_1782374832710_gnkp0twob","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:08:06 [INFO]: GET /api/v1/auth/me 304 13ms {"requestId":"req_1782374886247_cu5vk7zte","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:08:06 [INFO]: GET /api/v1/admin/users?limit=1000 304 17ms {"requestId":"req_1782374886249_486exfmi2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:08:06 [INFO]: GET /api/v1/auth/me 304 31ms {"requestId":"req_1782374886290_n2wxjpyhn","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:08:06 [INFO]: GET /api/v1/admin/payments?limit=1000 304 30ms {"requestId":"req_1782374886292_alzaxuy9f","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:08:06 [WARN]: GET /api/v1/admin/payments/pins/all?limit=1000 404 9ms {"requestId":"req_1782374886335_aut8i6atr","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:10:00 [WARN]: GET /api/v1/admin/payments/pins/all?limit=10000 404 21ms {"requestId":"req_1782375000515_ouir4dvvr","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:10:00 [INFO]: GET /api/v1/admin/payments?limit=10000 200 36ms {"requestId":"req_1782375000508_2p2bjog9j","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:10:00 [INFO]: GET /api/v1/admin/users?limit=10000 200 64ms {"requestId":"req_1782375000497_9ieijsf46","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:10:25 [WARN]: GET /api/v1/admin/settings/pin 404 7ms {"requestId":"req_1782375025449_e34oaadoh","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:10:25 [WARN]: GET /api/v1/admin/settings/sms 404 13ms {"requestId":"req_1782375025446_4qiavrjdd","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:10:25 [INFO]: GET /api/v1/auth/me 304 39ms {"requestId":"req_1782375025430_bojnpmu4u","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:12:21 [WARN]: PUT /api/v1/admin/settings/pin 404 21ms {"requestId":"req_1782375141917_zkzk009ev","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:12:26 [WARN]: PUT /api/v1/admin/settings/pin 404 14ms {"requestId":"req_1782375146284_5r6ulev59","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:12:48 [WARN]: PUT /api/v1/admin/settings/sms 404 3ms {"requestId":"req_1782375168409_jdj62p8c8","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:20 [INFO]: GET /api/v1/auth/me 304 34ms {"requestId":"req_1782375200022_jxtqv6nca","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:20 [INFO]: GET /api/v1/admin/messages?status=new&limit=5 304 36ms {"requestId":"req_1782375200025_8pkmf04xc","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:20 [INFO]: GET /api/v1/admin/activities?limit=10 304 52ms {"requestId":"req_1782375200026_uxrtbfmzk","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:20 [INFO]: GET /api/v1/admin/payments?limit=1000 304 75ms {"requestId":"req_1782375200029_azvu7nt60","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:20 [INFO]: GET /api/v1/admin/dashboard/stats 304 113ms {"requestId":"req_1782375200012_zadgm2yea","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:20 [INFO]: GET /api/v1/admin/payments?status=pending&limit=5 304 20ms {"requestId":"req_1782375200109_yqy1f6gwh","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:13:30 [INFO]: GET /api/v1/admin/users?limit=1000 304 38ms {"requestId":"req_1782375209987_ahdl7oz3j","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:14:50 [INFO]: GET /api/v1/admin/messages?status=new&limit=5 304 11ms {"requestId":"req_1782375290048_6axl87flu","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:14:50 [INFO]: GET /api/v1/admin/payments?status=pending&limit=5 304 10ms {"requestId":"req_1782375290068_pgqgkz5ua","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 12:18:10 [INFO]: POST /api/v1/auth/login 200 998ms {"requestId":"req_1782375489281_f8zr9r8b0","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+2026-06-25 14:38:55 [INFO]: ⚠️ Received SIGINT. Closing gracefully... 
+2026-06-25 14:39:25 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-25 14:39:25 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-25 14:39:25 [INFO]: ✅ Database connected successfully (attempt 1) 
+2026-06-25 14:39:25 [INFO]: 🚀 Server running on port 5000 
+2026-06-25 14:39:25 [INFO]: 📍 Environment: development 
+2026-06-25 14:39:25 [INFO]: 🔗 API URL: http://localhost:5000/api/v1 
+2026-06-25 14:39:25 [INFO]: 📧 Email: Enabled 
+2026-06-25 14:39:25 [INFO]: 💳 Payment Mode: Cash Only 
+2026-06-26 12:24:30 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-26 12:24:30 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-26 12:24:31 [WARN]: ⚠️ Database connection attempt 1 failed:  
+2026-06-26 12:24:34 [WARN]: ⚠️ Database connection attempt 2 failed:  
+2026-06-26 12:24:37 [WARN]: ⚠️ Database connection attempt 3 failed:  
+2026-06-26 12:24:40 [WARN]: ⚠️ Database connection attempt 4 failed:  
+2026-06-26 12:24:43 [WARN]: ⚠️ Database connection attempt 5 failed:  
+2026-06-26 14:34:16 [WARN]: ⚠️ Email service not configured. Running in mock mode. 
+2026-06-26 14:34:16 [INFO]: 📱 SMS Service: africastalking (Disabled) 
+2026-06-26 14:34:17 [WARN]: ⚠️ Database connection attempt 1 failed:  
+2026-06-26 14:34:20 [WARN]: ⚠️ Database connection attempt 2 failed:  
+2026-06-26 14:34:23 [WARN]: ⚠️ Database connection attempt 3 failed:  
+2026-06-26 14:34:26 [WARN]: ⚠️ Database connection attempt 4 failed:  
+2026-06-26 14:34:29 [WARN]: ⚠️ Database connection attempt 5 failed:  
