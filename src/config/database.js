@@ -1,11 +1,11 @@
-// src/config/database.js - Production Ready
+// src/config/database.js - Production Ready with SSL
 const mysql = require('mysql2/promise');
 const dotenv = require('dotenv');
 const logger = require('../utils/logger');
 
 dotenv.config();
 
-// Connection pool configuration
+// Connection pool configuration with SSL
 const poolConfig = {
     host: process.env.DB_HOST || 'localhost',
     port: parseInt(process.env.DB_PORT) || 3306,
@@ -20,13 +20,11 @@ const poolConfig = {
     timezone: '+01:00',
     charset: 'utf8mb4',
     connectTimeout: 30000,
-    acquireTimeout: 30000,
-    timeout: 30000,
-    ...(process.env.NODE_ENV === 'production' && process.env.DB_SSL === 'true' ? {
-        ssl: {
-            rejectUnauthorized: false
-        }
-    } : {})
+    // ✅ ADD SSL CONFIG FOR TiDB Cloud
+    ssl: {
+        require: true,
+        rejectUnauthorized: false  // For TiDB Cloud
+    }
 };
 
 // Create pool
