@@ -60,20 +60,32 @@ app.use(helmet({
 // ============================================
 // CORS CONFIGURATION (ONLY ONCE)
 // ============================================
+// src/app.js
+
 const corsOptions = {
     origin: (origin, callback) => {
-        const allowedOrigins = (process.env.ALLOWED_ORIGINS || 'http://localhost:3000,http://localhost:3001').split(',');
-        if (!origin || allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {
+        const allowedOrigins = [
+            'http://localhost:3000',
+            'http://localhost:3001',
+            'https://educamlab-frontend.onrender.com',  // ← ADD THIS!
+            'https://educamlab.page.gd',                // ← ADD THIS!
+            process.env.ALLOWED_ORIGINS                // ← For Render env var
+        ];
+        
+        // Allow requests with no origin (like mobile apps or curl)
+        if (!origin) return callback(null, true);
+        
+        if (allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {
             callback(null, true);
         } else {
-            logger.warn(`⚠️ CORS blocked: ${origin}`);
+            console.warn(`⚠️ CORS blocked: ${origin}`);
             callback(new Error('Not allowed by CORS'));
         }
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'X-CSRF-Token', 'X-Request-ID'],
-    exposedHeaders: ['X-Total-Count', 'X-RateLimit-Limit', 'X-RateLimit-Remaining'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+    exposedHeaders: ['X-Total-Count'],
     maxAge: 86400
 };
 
